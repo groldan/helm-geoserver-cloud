@@ -5,3 +5,5 @@
 /tests/*actual.yaml
 */__pycache__/*
 .venv/
+.project
+.vscode
