@@ -7,3 +7,5 @@
 .venv/
 .project
 .vscode
+
+nfs-server/nfs-data
