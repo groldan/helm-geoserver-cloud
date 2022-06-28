@@ -78,7 +78,11 @@ geoserver:
   #   - mountPath: '/var/geoserver/nfsrasters'
   #     mountName: 'nfs-pv-storage-rasters'
   #     pvcName: 'nfs-rasters-pv-claim'
-  volumeMounts: []
+  # volumeMounts: []
+  volumeMounts:
+    - mountPath: '/opt/app/data_directory'
+      mountName: 'nfs-pv-datadir'
+      pvcName: 'nfs-pv-datadir-claim'
 
   # environment variables, same format as jdbc.configVariables
   envVariables: {}
