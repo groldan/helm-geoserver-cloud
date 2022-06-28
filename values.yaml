@@ -1,6 +1,6 @@
 global:
   legacyk8s: false
-  profile: standalone,jdbcconfig
+  profile: standalone,datadir
   revisionHistoryLimit: 3
   deployed_by: helm
   allowEnvParametrization: true

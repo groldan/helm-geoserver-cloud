@@ -1,3 +1,4 @@
+# see https://blog.ruanbekker.com/blog/2020/09/20/setup-a-nfs-server-with-docker/
 version: "2.1"
 services:
   # https://hub.docker.com/r/itsthenetwork/nfs-server-alpine
